@@ -8,17 +8,12 @@ using db = double;
 
 #define rep(i,a,n) for(int i=a;i<=n;i++)
 #define per(i,a,n) for(int i=n;i>=a;i--)
-#define mp make_pair
 #define pb push_back
 #define fi first
 #define se second
 #define pi acos(-1)
 #define sz(x) ((int)(x).size())
 #define all(x) x.begin(),x.end()
-#define INF 0x7fffffff
-#define inf 0x3f3f3f3f
-#define mod 998244353
-#define MOD 1000000007
 typedef std::vector<int> VI;
 typedef std::pair<int,int> PII;
 
