@@ -1,9 +1,17 @@
 #include <bits/stdc++.h>
 
+#ifdef LOCAL
+#include <dbg.h>
+#else
+#define dbg(...) 42
+#endif
+
 using i64 = long long;
 using u64 = unsigned long long;
 using u32 = unsigned int;
 using db = double;
+
+using std::cin, std::cout;
 
 #define rep(i,a,n) for(int i=a;i<=n;i++)
 #define per(i,a,n) for(int i=n;i>=a;i--)
