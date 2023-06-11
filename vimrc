@@ -1,0 +1,1 @@
+/Users/syh/.vimrc
