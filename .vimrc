@@ -8,6 +8,8 @@ set undodir=~/.vim/undodir
 set path+=**
 set wildmenu
 
+set expandtab
+
 set splitbelow
 set splitright
 
