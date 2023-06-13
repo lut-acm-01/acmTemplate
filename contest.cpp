@@ -2,9 +2,9 @@
 using namespace std;
 
 #ifdef LOCAL
-#include <dbg.h>
+#include "algo/debug.h"
 #else
-#define dbg(...) 42
+#define debug(...) 42
 #endif
 
 using i64 = long long;
