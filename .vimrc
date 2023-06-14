@@ -20,8 +20,8 @@ set vb t_vb=
 set backspace=indent,eol,start
 set autoread
 
-no <F5> :!clang++ -O2 -std=c++17 -I/Users/syh/solution/header %:p -o %:r && echo "compile complete" && %:h/%:r<CR>
-no <F6> :!clang++ -O2 -std=c++17 -I/Users/syh/solution/header %:p -o %:r && echo "compile complete" && %:h/%:r<%:p:h/in<CR>
+no <F5> :!clang++ -O2 -std=c++17 -DDBG_MACRO_NO_WARNING -DLOCAL -fsanitize=address -I~/solution/header %:p -o %:r && echo "compile complete" && %:h/%:r<CR>
+no <F6> :!clang++ -O2 -std=c++17 -DDBG_MACRO_NO_WARNING -DLOCAL -fsanitize=address -I~/solution/header %:p -o %:r && echo "compile complete" && %:h/%:r<%:p:h/in<CR>
 
 set is " incsearch, useful for replacing
 
