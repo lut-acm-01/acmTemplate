@@ -22,4 +22,4 @@ using PII = std::pair<int, int>;
 #define sz(x) ((int)(x).size())
 #define all(x) x.begin(),x.end()
 
-i64 gcd(i64 a,i64 b) { return b?gcd(b,a%b):a; }
+// i64 gcd(i64 a,i64 b) { return b?gcd(b,a%b):a; }
